@@ -1,0 +1,100 @@
+.request-page {
+    margin-left: 280px;
+    padding: 40px;
+    background: #eef3fb;
+    min-height: 100vh;
+}
+
+.request-page h1 {
+    color: #1d3f8b;
+    margin-bottom: 30px;
+}
+
+.request-form {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.request-form input,
+.request-form select{
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+}
+
+.request-form button{
+    background:#2f63e0;
+    color:white;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.request-form button:hover{
+    background:#214db8;
+}
+
+.request-table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.request-table th{
+    background:#2f63e0;
+    color:white;
+    padding:15px;
+}
+
+.request-table td{
+    padding:14px;
+    text-align:center;
+    border-bottom:1px solid #ddd;
+}
+
+.status{
+    padding:6px 12px;
+    border-radius:20px;
+    color:white;
+    font-size:14px;
+}
+
+.pending{
+    background:orange;
+}
+
+.approved{
+    background:green;
+}
+
+.rejected{
+    background:red;
+}
+
+@media(max-width:1200px){
+
+.request-form{
+grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media(max-width:700px){
+
+.request-page{
+margin-left:0;
+padding:20px;
+}
+
+.request-form{
+grid-template-columns:1fr;
+}
+
+}

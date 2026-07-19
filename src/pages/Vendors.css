@@ -1,0 +1,87 @@
+.vendor-page h2{
+
+    color:#1E3A8A;
+
+    margin-bottom:25px;
+
+}
+
+.vendor-form{
+
+    display:grid;
+
+    grid-template-columns:repeat(5,1fr);
+
+    gap:15px;
+
+    margin-bottom:35px;
+
+}
+
+.vendor-form input{
+
+    padding:12px;
+
+    border-radius:8px;
+
+    border:1px solid #ccc;
+
+    font-size:15px;
+
+}
+
+.vendor-form button{
+
+    background:#2563EB;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+}
+
+.vendor-table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    background:white;
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+
+}
+
+.vendor-table th{
+
+    background:#2563EB;
+
+    color:white;
+
+    padding:15px;
+
+}
+
+.vendor-table td{
+
+    padding:14px;
+
+    border-bottom:1px solid #eee;
+
+}
+
+.vendor-table tr:hover{
+
+    background:#f5f8ff;
+
+}

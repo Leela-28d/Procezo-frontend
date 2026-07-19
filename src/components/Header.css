@@ -1,0 +1,48 @@
+.header{
+    background:white;
+    border-radius:18px;
+    padding:25px 40px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    margin-bottom:40px;
+
+    box-shadow:0 8px 30px rgba(0,0,0,.08);
+}
+
+.header h2{
+    color:#22408f;
+    font-size:42px;
+}
+
+.profile{
+    display:flex;
+    align-items:center;
+    gap:18px;
+}
+
+.avatar{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:#3461e2;
+    color:white;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:28px;
+    font-weight:bold;
+}
+
+.profile h4{
+    margin:0;
+}
+
+.profile p{
+    margin:0;
+    color:gray;
+}

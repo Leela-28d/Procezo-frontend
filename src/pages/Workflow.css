@@ -1,0 +1,106 @@
+.workflow-page{
+
+    margin-left:260px;
+
+    padding:35px;
+
+}
+
+.workflow-page h1{
+
+    margin-bottom:25px;
+
+    color:#1e293b;
+
+}
+
+.workflow-form{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+    margin-bottom:35px;
+
+}
+
+.workflow-form input,
+.workflow-form select{
+
+    width:100%;
+
+    padding:12px;
+
+    margin-top:10px;
+
+    margin-bottom:15px;
+
+    border-radius:8px;
+
+    border:1px solid #ccc;
+
+}
+
+.stage-card{
+
+    border:1px solid #ddd;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    margin-bottom:20px;
+
+    background:#f8fafc;
+
+}
+
+.workflow-form button{
+
+    margin-right:15px;
+
+    padding:10px 25px;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    background:#2563eb;
+
+    color:white;
+
+}
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    background:white;
+
+}
+
+table th{
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:15px;
+
+}
+
+table td{
+
+    padding:15px;
+
+    border-bottom:1px solid #eee;
+
+}

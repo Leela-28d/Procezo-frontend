@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+button{
+    cursor:pointer;
+}
+
+input,button{
+    outline:none;
+}
+
+.page{
+    display:flex;
+}
+
+.content{
+    flex:1;
+    padding:30px;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    padding:20px;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+.title{
+    font-size:28px;
+    font-weight:600;
+    margin-bottom:25px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th,td{
+    padding:14px;
+    text-align:left;
+    border-bottom:1px solid #ddd;
+}
+
+th{
+    background:#1976d2;
+    color:white;
+}
+
+.btn{
+    background:#1976d2;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:6px;
+}
+
+.btn:hover{
+    background:#125aa4;
+}

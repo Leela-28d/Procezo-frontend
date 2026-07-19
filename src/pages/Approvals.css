@@ -1,0 +1,71 @@
+.approvals-page{
+
+    margin-left:260px;
+
+    padding:30px;
+
+}
+
+.approvals-page table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:20px;
+
+    background:white;
+
+}
+
+.approvals-page th{
+
+    background:#1976d2;
+
+    color:white;
+
+    padding:12px;
+
+}
+
+.approvals-page td{
+
+    padding:12px;
+
+    border-bottom:1px solid #ddd;
+
+}
+
+.approve-btn{
+
+    background:#2e7d32;
+
+    color:white;
+
+    border:none;
+
+    padding:8px 15px;
+
+    margin-right:8px;
+
+    border-radius:5px;
+
+    cursor:pointer;
+
+}
+
+.reject-btn{
+
+    background:#d32f2f;
+
+    color:white;
+
+    border:none;
+
+    padding:8px 15px;
+
+    border-radius:5px;
+
+    cursor:pointer;
+
+}
